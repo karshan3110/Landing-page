@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to right,rgba(201, 193, 193, 0)50%,rgba(226, 220, 220, 0)50%),url(Untitled.jpg);
+    background-position: 70%;
+    background-size:cover;
+    height: 75vh;
+}
+.navbar{
+    width: 2200px;
+    height: 75px;
+    margin: auto;
+    background:linear-gradient(to right,rgba(137, 133, 133, 0.411),rgba(255,255,255,0.1));
+    position: fixed;
+}
+.icon{
+    width: 500px;
+    float: left;
+    height: 70px;
+    display:flex;
+}
+.wel{
+    padding-top: 200px;
+    padding-left: 260px;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.209);
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    padding: left;
+    float: left;
+    padding-top: 10px;
+}
+.nav{
+    padding-left: 350px;
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-top: 15px;
+    align-items: right;
+    display: inline;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-right: 27px;
+    font-size: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #040506;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color:azure
+}
+.content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+button{
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    border: none;
+    background:transparent;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+a{
+    text-decoration: none;
+    color: #8aa9e2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.s;
+}
+footer{
+    align-items: center;
+    width: 1500px;
+    height: 40px;
+    margin: auto;
+    padding-bottom:1px;
+    color:white;
+    background:linear-gradient(to right,rgba(30, 29, 29, 0.812),rgba(48, 46, 46, 0.873));
+    position: fixed;
+    padding-top: 12px;
+}
+.foot{
+    padding-top: 110px;
+
+}
